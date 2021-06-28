@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyLibrary">
+
+    <ImageView
+        android:id="@+id/back_my_lib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/back_my_library" />
+
+    <ImageView
+        android:id="@+id/return_on_welcome"
+        android:layout_width="0dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginRight="237dp"
+        app:layout_constraintEnd_toStartOf="@+id/go_in_ey_library"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_my_library" />
+
+    <ImageView
+        android:id="@+id/go_in_ey_library"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/return_on_welcome"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ey_img" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/back_my_lib"
+        app:layout_constraintTop_toTopOf="@+id/back_my_lib"
+        app:srcCompat="@drawable/us_l" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EY</string>
+    <string name="about_text">
+    00</string>
+    <string name="title_activity_e_y_categpry">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
